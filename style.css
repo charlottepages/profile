@@ -1,0 +1,108 @@
+/* Colors and Fonts */
+
+body{
+  background-color: #FCFCFC;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+h1{
+  color: #468C98;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+h2, h3{
+  font-family: 'Mada', sans-serif;
+  color: #468C98;
+}
+
+h2{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#favorite-games p{
+  text-align: justify;
+}
+
+a{
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #468C98;
+  text-decoration: none;
+}
+
+/* Adding borders and stuff */
+
+.container{
+  width: 90%;
+  margin: 30px auto;
+}
+.card{
+  background: white;
+  padding: 35px 20px 20px 20px;
+  margin: 20px auto;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+#favorite-games .card{
+  width: 45%;
+  height: 550px;
+  display: inline-block;
+  vertical-align: top;
+}
+#favorite-games h2{
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.text-center{
+  text-align: center;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+
+/* Tables */
+
+tr{
+  margin: 20px;
+}
+td{
+  padding: 10px;
+}
+table{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+/* Images */
+#favorite-games img{
+  width: 85%;
+  border: 2px solid #cccccc;
+}
+#img-profile{
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #cccccc;
+}
